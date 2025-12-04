@@ -1,0 +1,49 @@
+# News Reader App
+
+News aggregation mobile app with personalized feeds, categories, and offline reading support.
+
+## Tech Stack
+
+- **Framework**: React Native
+- **Language**: TypeScript
+- **Navigation**: React Navigation
+- **Package Manager**: npm / yarn
+
+## Project Structure
+
+```
+news-reader-app/
+├── src/
+│   ├── components/
+│   ├── screens/
+│   ├── navigation/
+│   ├── hooks/
+│   └── utils/
+├── android/
+├── ios/
+├── .env.example
+├── package.json
+├── tsconfig.json
+└── README.md
+```
+
+## Getting Started
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. For iOS:
+   ```bash
+   cd ios && pod install && cd ..
+   ```
+
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+
+## License
+
+MIT
